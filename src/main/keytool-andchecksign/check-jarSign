@@ -1,0 +1,3 @@
+jarsigner -verify -keystore mykeystore.jks myapp-signed.jar
+
+jarsigner -verify signed_app.jar
